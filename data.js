@@ -2,12 +2,12 @@
 // После изменения guests.json пересоздайте этот файл (команда в README.md).
 window.GUESTS_DATA = {
   "wedding": {
-    "groom": "Жених",
-    "bride": "Невеста",
-    "dateText": "12 сентября 2026",
-    "time": "15:00",
-    "venue": "Банкетный зал «Название»",
-    "address": "г. Город, ул. Улица, д. 1",
+    "groom": "Вадим",
+    "bride": "Ксения",
+    "dateText": "22 августа 2026",
+    "time": "",
+    "venue": "",
+    "address": "",
     "hashtag": "#СвадьбаВилли"
   },
   "guests": [

@@ -129,12 +129,22 @@
 
                     '<div class="divider">&#10087; &#10087; &#10087;</div>' +
 
-                    // Детали события
+                    // Детали события.
+                    // Если время или место в guests.json ещё не заполнены (пустая строка),
+                    // показываем «уточняется» вместо пустого места.
                     '<div class="details fade-in" style="--d:.4s">' +
                         '<div class="detail"><span class="icon">&#128338;</span>' +
-                            '<span><b>Когда</b>' + esc(wedding.dateText) + ', сбор гостей в ' + esc(wedding.time) + '</span></div>' +
+                            '<span><b>Когда</b>' + esc(wedding.dateText) +
+                            (wedding.time
+                                ? ', сбор гостей в ' + esc(wedding.time)
+                                : ' (точное время уточняется — мы сообщим дополнительно)') +
+                            '</span></div>' +
                         '<div class="detail"><span class="icon">&#128205;</span>' +
-                            '<span><b>Где</b>' + esc(wedding.venue) + ', ' + esc(wedding.address) + '</span></div>' +
+                            '<span><b>Где</b>' +
+                            (wedding.venue
+                                ? esc(wedding.venue) + (wedding.address ? ', ' + esc(wedding.address) : '')
+                                : 'Место проведения уточняется — мы сообщим дополнительно') +
+                            '</span></div>' +
                     '</div>' +
 
                     // Кнопка подтверждения участия — открывает rsvpLink в новой вкладке
