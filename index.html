@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <!-- Адаптивность под мобильные устройства -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Приглашение на свадьбу</title>
+
+    <!-- Подключаем шрифты Google Fonts (используются в персональных темах гостей) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Cormorant+Garamond:wght@400;600&family=Playfair+Display:wght@400;600&family=Lora:ital,wght@0,400;0,600;1,400&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <!-- Основные стили сайта -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Фоновый слой: сюда подставляется персональное фоновое изображение гостя.
+         Слой отделён от контента, чтобы можно было сделать лёгкий параллакс при прокрутке -->
+    <div id="bg-layer" aria-hidden="true"></div>
+
+    <!-- Корневой контейнер: весь контент (страница гостя / список / 404) рисует script.js -->
+    <main id="app">
+        <div class="loader">Загружаем приглашение…</div>
+    </main>
+
+    <!-- Встроенные данные гостей — резервная копия guests.json.
+         Нужна, чтобы сайт работал даже при открытии index.html двойным кликом
+         (без сервера fetch к guests.json блокируется браузером) -->
+    <script src="data.js"></script>
+    <!-- Вся логика приложения -->
+    <script src="script.js"></script>
+</body>
+</html>

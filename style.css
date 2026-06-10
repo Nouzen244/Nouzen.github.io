@@ -1,0 +1,312 @@
+/* ============================================================
+   Свадебный сайт-приглашение — стили
+   Персонализация реализована через CSS-переменные:
+   script.js подставляет цвета и шрифт из темы конкретного гостя.
+   ============================================================ */
+
+:root {
+    /* Значения по умолчанию — переопределяются темой гостя из guests.json */
+    --primary: #b4536a;          /* основной цвет темы */
+    --bg-color: #fdf2f4;         /* цвет фона страницы */
+    --font-accent: 'Cormorant Garamond', serif; /* акцентный шрифт темы */
+    --text: #3c3340;             /* основной цвет текста */
+    --card-bg: rgba(255, 255, 255, 0.85); /* полупрозрачный фон карточки */
+}
+
+/* Сброс отступов и базовая типографика */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    color: var(--text);
+    background-color: var(--bg-color);
+    transition: background-color 0.6s ease; /* плавная смена фона при применении темы */
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+/* ------------------------------------------------------------
+   Фоновый слой с персональным изображением + параллакс
+   ------------------------------------------------------------ */
+#bg-layer {
+    position: fixed;
+    /* Слой чуть больше экрана, чтобы при параллакс-сдвиге не было пустых краёв */
+    top: -12%;
+    left: 0;
+    width: 100%;
+    height: 124%;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.22;               /* изображение делаем нежным, полупрозрачным */
+    z-index: -1;
+    will-change: transform;      /* подсказка браузеру для плавного параллакса */
+    pointer-events: none;
+}
+
+/* Индикатор загрузки, пока подгружается guests.json */
+.loader {
+    text-align: center;
+    padding: 40vh 16px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    font-size: 13px;
+    opacity: 0.6;
+}
+
+/* Общий контейнер страницы */
+.page {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 24px 16px 56px;
+}
+
+/* ------------------------------------------------------------
+   Шапка: имена молодожёнов и дата
+   ------------------------------------------------------------ */
+.hero {
+    text-align: center;
+    padding: 56px 16px 28px;
+}
+
+.hero .names {
+    /* Крупная рукописная надпись с именами */
+    font-family: 'Great Vibes', cursive;
+    font-size: clamp(46px, 9vw, 76px);
+    line-height: 1.15;
+    color: var(--primary);
+    text-shadow: 0 2px 18px rgba(255, 255, 255, 0.8);
+}
+
+.hero .date {
+    margin-top: 10px;
+    font-size: 14px;
+    letter-spacing: 0.4em;
+    text-transform: uppercase;
+    opacity: 0.75;
+}
+
+/* ------------------------------------------------------------
+   Центральная карточка-приглашение
+   ------------------------------------------------------------ */
+.card {
+    position: relative;
+    background: var(--card-bg);
+    backdrop-filter: blur(10px);          /* эффект «матового стекла» */
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.7);
+    border-radius: 26px;
+    box-shadow: 0 30px 70px -30px rgba(60, 30, 45, 0.35);
+    padding: 44px 36px;
+    overflow: hidden;
+}
+
+/* Маленький акцент темы (иконка/эмодзи или картинка) в углу карточки */
+.card .accent {
+    position: absolute;
+    top: 16px;
+    right: 20px;
+    font-size: 32px;
+    filter: drop-shadow(0 2px 6px rgba(0, 0, 0, 0.15));
+}
+.card .accent img {
+    width: 42px;
+    height: 42px;
+    object-fit: contain;
+}
+
+/* Персональное приветствие «Дорогие …!» */
+.salutation {
+    font-family: var(--font-accent);
+    font-size: clamp(28px, 5.5vw, 40px);
+    font-weight: 600;
+    color: var(--primary);
+    text-align: center;
+    margin-bottom: 18px;
+}
+
+/* Личное сообщение от молодожёнов */
+.message {
+    text-align: center;
+    font-size: 17px;
+    line-height: 1.75;
+    max-width: 540px;
+    margin: 0 auto;
+}
+
+/* Декоративный разделитель между блоками */
+.divider {
+    text-align: center;
+    color: var(--primary);
+    letter-spacing: 10px;
+    margin: 26px 0;
+    font-size: 15px;
+    opacity: 0.85;
+}
+
+/* Фотография гостя в мягкой «полароидной» рамке */
+.photo-wrap {
+    display: flex;
+    justify-content: center;
+    margin: 6px 0 10px;
+}
+.photo {
+    width: min(420px, 100%);
+    border-radius: 16px;
+    border: 9px solid #fff;
+    box-shadow: 0 20px 45px -18px rgba(0, 0, 0, 0.35);
+    transform: rotate(-1.6deg);          /* лёгкий наклон для живости */
+    transition: transform 0.35s ease;
+}
+.photo:hover { transform: rotate(0deg) scale(1.02); }
+
+/* ------------------------------------------------------------
+   Детали события: время, адрес, дресс-код
+   ------------------------------------------------------------ */
+.details {
+    display: grid;
+    gap: 14px;
+    margin: 6px auto 30px;
+    max-width: 520px;
+}
+.detail {
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+    background: rgba(255, 255, 255, 0.65);
+    border-radius: 16px;
+    padding: 14px 18px;
+    font-size: 15px;
+    line-height: 1.55;
+}
+.detail .icon { font-size: 22px; line-height: 1.3; }
+.detail b {
+    display: block;
+    font-weight: 600;
+    color: var(--primary);
+    text-transform: uppercase;
+    font-size: 11px;
+    letter-spacing: 0.18em;
+    margin-bottom: 2px;
+}
+
+/* Кнопка подтверждения участия */
+.btn {
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
+    background: var(--primary);
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: 0.06em;
+    padding: 15px 42px;
+    border-radius: 999px;
+    box-shadow: 0 14px 30px -12px var(--primary);
+    transition: transform 0.2s ease, box-shadow 0.2s ease, filter 0.2s ease;
+}
+.btn:hover {
+    transform: translateY(-2px);
+    filter: brightness(1.08);
+    box-shadow: 0 18px 36px -12px var(--primary);
+}
+
+/* ------------------------------------------------------------
+   Футер: хештег и благодарность
+   ------------------------------------------------------------ */
+footer {
+    text-align: center;
+    margin-top: 44px;
+    opacity: 0.9;
+}
+footer .hashtag {
+    font-family: var(--font-accent);
+    font-size: 26px;
+    color: var(--primary);
+}
+footer .thanks {
+    margin-top: 8px;
+    font-size: 14px;
+    opacity: 0.75;
+}
+
+/* ------------------------------------------------------------
+   Общая страница: список приглашённых (когда нет ?guest=)
+   ------------------------------------------------------------ */
+.list-intro {
+    text-align: center;
+    margin-bottom: 26px;
+    line-height: 1.7;
+}
+.guest-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 12px;
+}
+.guest-link {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: var(--card-bg);
+    border: 1px solid rgba(255, 255, 255, 0.7);
+    border-radius: 16px;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: var(--text);
+    font-size: 15px;
+    box-shadow: 0 10px 24px -16px rgba(60, 30, 45, 0.3);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.guest-link:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 16px 30px -16px rgba(60, 30, 45, 0.45);
+}
+.guest-link .emoji { font-size: 20px; }
+
+/* ------------------------------------------------------------
+   Страница 404 — гость не найден
+   ------------------------------------------------------------ */
+.not-found {
+    text-align: center;
+    padding: 16vh 16px;
+}
+.not-found .big {
+    font-family: 'Great Vibes', cursive;
+    font-size: clamp(54px, 12vw, 96px);
+    color: var(--primary);
+}
+.not-found p { margin: 14px 0 26px; line-height: 1.7; }
+
+/* ------------------------------------------------------------
+   Анимация появления контента (fade-in)
+   Класс ставится на блоки, задержка — через переменную --d
+   ------------------------------------------------------------ */
+.fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeIn 0.9s ease forwards;
+    animation-delay: var(--d, 0s);
+}
+@keyframes fadeIn {
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* Уважение к настройке «уменьшить движение» у пользователя */
+@media (prefers-reduced-motion: reduce) {
+    .fade-in { animation: none; opacity: 1; transform: none; }
+    #bg-layer { transform: none !important; }
+}
+
+/* ------------------------------------------------------------
+   Мобильная версия
+   ------------------------------------------------------------ */
+@media (max-width: 560px) {
+    .hero { padding: 36px 12px 20px; }
+    .card { padding: 30px 20px; border-radius: 20px; }
+    .card .accent { font-size: 26px; top: 12px; right: 14px; }
+    .detail { padding: 12px 14px; }
+    .btn { width: 100%; text-align: center; }
+}
