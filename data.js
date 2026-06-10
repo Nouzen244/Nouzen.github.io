@@ -236,8 +236,8 @@ window.GUESTS_DATA = {
       }
     },
     {
-      "id": "alina-viktor-viktor",
-      "name": "Алина, Виктор и Виктор",
+      "id": "alyona-viktor-viktor",
+      "name": "Алёна, Виктор и Виктор",
       "salutation": "Дорогие",
       "message": "Будем счастливы видеть вас среди наших гостей в самый важный день нашей жизни!",
       "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Fr%C3%BChlingsallee_Tulpenbl%C3%BCte_2010_%281%29.jpg/960px-Fr%C3%BChlingsallee_Tulpenbl%C3%BCte_2010_%281%29.jpg",
