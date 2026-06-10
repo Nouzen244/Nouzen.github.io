@@ -17,7 +17,7 @@ window.GUESTS_DATA = {
       "salutation": "Дорогие",
       "message": "Мы очень рады пригласить вас на наш праздник! Ваше присутствие сделает этот день ещё теплее и счастливее.",
       "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Pink_rose%E2%80%93IMG_6796_02.jpg/960px-Pink_rose%E2%80%93IMG_6796_02.jpg",
-      "rsvpLink": "https://forms.gle/ВАША_ФОРМА",
+      "rsvpLink": "https://docs.google.com/forms/d/e/1FAIpQLSeTVk1ppNp8KWXvnrp5-kIUYbH4NQJMJYBkBEB3Fhr74BVCgA/viewform",
       "theme": {
         "primaryColor": "#b4536a",
         "backgroundColor": "#fdf2f4",
@@ -33,7 +33,7 @@ window.GUESTS_DATA = {
       "salutation": "Дорогие",
       "message": "В нашей жизни наступает особенный день, и мы хотим разделить его с самыми близкими — с вами!",
       "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Snowshil-Lavender.jpg/960px-Snowshil-Lavender.jpg",
-      "rsvpLink": "https://forms.gle/ВАША_ФОРМА",
+      "rsvpLink": "https://docs.google.com/forms/d/e/1FAIpQLSeTVk1ppNp8KWXvnrp5-kIUYbH4NQJMJYBkBEB3Fhr74BVCgA/viewform",
       "theme": {
         "primaryColor": "#7c6bb0",
         "backgroundColor": "#f5f3fb",
@@ -49,7 +49,7 @@ window.GUESTS_DATA = {
       "salutation": "Дорогие",
       "message": "Будем счастливы видеть вас среди наших гостей в самый важный день нашей жизни!",
       "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/D%C3%BClmen%2C_Brachliegendes_Feld_mit_Wildblumen_--_2021_--_9756.jpg/960px-D%C3%BClmen%2C_Brachliegendes_Feld_mit_Wildblumen_--_2021_--_9756.jpg",
-      "rsvpLink": "https://forms.gle/ВАША_ФОРМА",
+      "rsvpLink": "https://docs.google.com/forms/d/e/1FAIpQLSeTVk1ppNp8KWXvnrp5-kIUYbH4NQJMJYBkBEB3Fhr74BVCgA/viewform",
       "theme": {
         "primaryColor": "#5e8b6a",
         "backgroundColor": "#f1f7f2",
@@ -65,7 +65,7 @@ window.GUESTS_DATA = {
       "salutation": "Дорогие",
       "message": "Этот день станет для нас началом новой истории, и мы будем рады написать её первую страницу вместе с вами.",
       "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Sunflower_fields_in_%C5%A0umadija.jpg/960px-Sunflower_fields_in_%C5%A0umadija.jpg",
-      "rsvpLink": "https://forms.gle/ВАША_ФОРМА",
+      "rsvpLink": "https://docs.google.com/forms/d/e/1FAIpQLSeTVk1ppNp8KWXvnrp5-kIUYbH4NQJMJYBkBEB3Fhr74BVCgA/viewform",
       "theme": {
         "primaryColor": "#b08d3e",
         "backgroundColor": "#fbf7ee",
@@ -81,7 +81,7 @@ window.GUESTS_DATA = {
       "salutation": "Дорогие",
       "message": "Приглашаем вас разделить с нами радость нашего самого счастливого дня!",
       "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Hydrangea_macrophylla_-_Hortensia_hydrangea.jpg/960px-Hydrangea_macrophylla_-_Hortensia_hydrangea.jpg",
-      "rsvpLink": "https://forms.gle/ВАША_ФОРМА",
+      "rsvpLink": "https://docs.google.com/forms/d/e/1FAIpQLSeTVk1ppNp8KWXvnrp5-kIUYbH4NQJMJYBkBEB3Fhr74BVCgA/viewform",
       "theme": {
         "primaryColor": "#5b7d9e",
         "backgroundColor": "#eef4f9",
@@ -97,7 +97,7 @@ window.GUESTS_DATA = {
       "salutation": "Дорогие",
       "message": "Без вас наш праздник будет неполным — будем очень рады видеть вас!",
       "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Tulipa_suaveolens_floriade_to_Canberra.jpg/960px-Tulipa_suaveolens_floriade_to_Canberra.jpg",
-      "rsvpLink": "https://forms.gle/ВАША_ФОРМА",
+      "rsvpLink": "https://docs.google.com/forms/d/e/1FAIpQLSeTVk1ppNp8KWXvnrp5-kIUYbH4NQJMJYBkBEB3Fhr74BVCgA/viewform",
       "theme": {
         "primaryColor": "#c4704f",
         "backgroundColor": "#fdf4ef",
@@ -113,7 +113,7 @@ window.GUESTS_DATA = {
       "salutation": "Дорогие",
       "message": "Мы очень рады пригласить вас на наш праздник! Ваше присутствие сделает этот день ещё теплее и счастливее.",
       "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Garden_Dahlia_flower.jpg/960px-Garden_Dahlia_flower.jpg",
-      "rsvpLink": "https://forms.gle/ВАША_ФОРМА",
+      "rsvpLink": "https://docs.google.com/forms/d/e/1FAIpQLSeTVk1ppNp8KWXvnrp5-kIUYbH4NQJMJYBkBEB3Fhr74BVCgA/viewform",
       "theme": {
         "primaryColor": "#8e3b46",
         "backgroundColor": "#faf0f1",
@@ -129,7 +129,7 @@ window.GUESTS_DATA = {
       "salutation": "Дорогие",
       "message": "В нашей жизни наступает особенный день, и мы хотим разделить его с самыми близкими — с вами!",
       "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Orchidaceae_flowers_-_magenta_colour.jpg/960px-Orchidaceae_flowers_-_magenta_colour.jpg",
-      "rsvpLink": "https://forms.gle/ВАША_ФОРМА",
+      "rsvpLink": "https://docs.google.com/forms/d/e/1FAIpQLSeTVk1ppNp8KWXvnrp5-kIUYbH4NQJMJYBkBEB3Fhr74BVCgA/viewform",
       "theme": {
         "primaryColor": "#3f9b94",
         "backgroundColor": "#eefaf8",
@@ -145,7 +145,7 @@ window.GUESTS_DATA = {
       "salutation": "Дорогая",
       "message": "Будем счастливы видеть тебя среди наших гостей в самый важный день нашей жизни!",
       "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/African_Cape_Daisy_%28Osteospermum_barberiae%29.jpg/960px-African_Cape_Daisy_%28Osteospermum_barberiae%29.jpg",
-      "rsvpLink": "https://forms.gle/ВАША_ФОРМА",
+      "rsvpLink": "https://docs.google.com/forms/d/e/1FAIpQLSeTVk1ppNp8KWXvnrp5-kIUYbH4NQJMJYBkBEB3Fhr74BVCgA/viewform",
       "theme": {
         "primaryColor": "#a08664",
         "backgroundColor": "#faf6f0",
@@ -161,7 +161,7 @@ window.GUESTS_DATA = {
       "salutation": "Дорогая",
       "message": "Этот день станет для нас началом новой истории, и мы будем рады написать её первую страницу вместе с тобой.",
       "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/A_pink_rose_in_Sweden_%28June%2C_2022%29.jpg/960px-A_pink_rose_in_Sweden_%28June%2C_2022%29.jpg",
-      "rsvpLink": "https://forms.gle/ВАША_ФОРМА",
+      "rsvpLink": "https://docs.google.com/forms/d/e/1FAIpQLSeTVk1ppNp8KWXvnrp5-kIUYbH4NQJMJYBkBEB3Fhr74BVCgA/viewform",
       "theme": {
         "primaryColor": "#b4536a",
         "backgroundColor": "#fdf2f4",
@@ -177,7 +177,7 @@ window.GUESTS_DATA = {
       "salutation": "Дорогой",
       "message": "Приглашаем тебя разделить с нами радость нашего самого счастливого дня!",
       "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Vanessa_cardui_on_Lavandula_angustifolia-2459.jpg/960px-Vanessa_cardui_on_Lavandula_angustifolia-2459.jpg",
-      "rsvpLink": "https://forms.gle/ВАША_ФОРМА",
+      "rsvpLink": "https://docs.google.com/forms/d/e/1FAIpQLSeTVk1ppNp8KWXvnrp5-kIUYbH4NQJMJYBkBEB3Fhr74BVCgA/viewform",
       "theme": {
         "primaryColor": "#7c6bb0",
         "backgroundColor": "#f5f3fb",
@@ -193,7 +193,7 @@ window.GUESTS_DATA = {
       "salutation": "Дорогие",
       "message": "Без вас наш праздник будет неполным — будем очень рады видеть вас!",
       "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/D%C3%BClmen%2C_Brachliegendes_Feld_mit_Wildblumen_--_2021_--_9771.jpg/960px-D%C3%BClmen%2C_Brachliegendes_Feld_mit_Wildblumen_--_2021_--_9771.jpg",
-      "rsvpLink": "https://forms.gle/ВАША_ФОРМА",
+      "rsvpLink": "https://docs.google.com/forms/d/e/1FAIpQLSeTVk1ppNp8KWXvnrp5-kIUYbH4NQJMJYBkBEB3Fhr74BVCgA/viewform",
       "theme": {
         "primaryColor": "#5e8b6a",
         "backgroundColor": "#f1f7f2",
@@ -209,7 +209,7 @@ window.GUESTS_DATA = {
       "salutation": "Дорогие",
       "message": "Мы очень рады пригласить вас на наш праздник! Ваше присутствие сделает этот день ещё теплее и счастливее.",
       "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Sunflower_in_the_evening_light_01.jpg/960px-Sunflower_in_the_evening_light_01.jpg",
-      "rsvpLink": "https://forms.gle/ВАША_ФОРМА",
+      "rsvpLink": "https://docs.google.com/forms/d/e/1FAIpQLSeTVk1ppNp8KWXvnrp5-kIUYbH4NQJMJYBkBEB3Fhr74BVCgA/viewform",
       "theme": {
         "primaryColor": "#b08d3e",
         "backgroundColor": "#fbf7ee",
@@ -225,7 +225,7 @@ window.GUESTS_DATA = {
       "salutation": "Дорогие",
       "message": "В нашей жизни наступает особенный день, и мы хотим разделить его с самыми близкими — с вами!",
       "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Hydrangea_macrophylla%2C_L%C3%A9vis.jpg/960px-Hydrangea_macrophylla%2C_L%C3%A9vis.jpg",
-      "rsvpLink": "https://forms.gle/ВАША_ФОРМА",
+      "rsvpLink": "https://docs.google.com/forms/d/e/1FAIpQLSeTVk1ppNp8KWXvnrp5-kIUYbH4NQJMJYBkBEB3Fhr74BVCgA/viewform",
       "theme": {
         "primaryColor": "#5b7d9e",
         "backgroundColor": "#eef4f9",
@@ -241,7 +241,7 @@ window.GUESTS_DATA = {
       "salutation": "Дорогие",
       "message": "Будем счастливы видеть вас среди наших гостей в самый важный день нашей жизни!",
       "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Fr%C3%BChlingsallee_Tulpenbl%C3%BCte_2010_%281%29.jpg/960px-Fr%C3%BChlingsallee_Tulpenbl%C3%BCte_2010_%281%29.jpg",
-      "rsvpLink": "https://forms.gle/ВАША_ФОРМА",
+      "rsvpLink": "https://docs.google.com/forms/d/e/1FAIpQLSeTVk1ppNp8KWXvnrp5-kIUYbH4NQJMJYBkBEB3Fhr74BVCgA/viewform",
       "theme": {
         "primaryColor": "#c4704f",
         "backgroundColor": "#fdf4ef",
@@ -257,7 +257,7 @@ window.GUESTS_DATA = {
       "salutation": "Дорогие",
       "message": "Этот день станет для нас началом новой истории, и мы будем рады написать её первую страницу вместе с вами.",
       "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Garden_Dahlia_flower_001.jpg/960px-Garden_Dahlia_flower_001.jpg",
-      "rsvpLink": "https://forms.gle/ВАША_ФОРМА",
+      "rsvpLink": "https://docs.google.com/forms/d/e/1FAIpQLSeTVk1ppNp8KWXvnrp5-kIUYbH4NQJMJYBkBEB3Fhr74BVCgA/viewform",
       "theme": {
         "primaryColor": "#8e3b46",
         "backgroundColor": "#faf0f1",
@@ -273,7 +273,7 @@ window.GUESTS_DATA = {
       "salutation": "Дорогие",
       "message": "Приглашаем вас разделить с нами радость нашего самого счастливого дня!",
       "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Ban_Ki-Moon_Orchid_Flower_Singapore_Feb23_D72_25479.jpg/960px-Ban_Ki-Moon_Orchid_Flower_Singapore_Feb23_D72_25479.jpg",
-      "rsvpLink": "https://forms.gle/ВАША_ФОРМА",
+      "rsvpLink": "https://docs.google.com/forms/d/e/1FAIpQLSeTVk1ppNp8KWXvnrp5-kIUYbH4NQJMJYBkBEB3Fhr74BVCgA/viewform",
       "theme": {
         "primaryColor": "#3f9b94",
         "backgroundColor": "#eefaf8",
@@ -289,7 +289,7 @@ window.GUESTS_DATA = {
       "salutation": "Дорогие",
       "message": "Без вас наш праздник будет неполным — будем очень рады видеть вас!",
       "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Daisy_Bellis_perennis_%27Habanero_Red%27_Flower_2013px.jpg/960px-Daisy_Bellis_perennis_%27Habanero_Red%27_Flower_2013px.jpg",
-      "rsvpLink": "https://forms.gle/ВАША_ФОРМА",
+      "rsvpLink": "https://docs.google.com/forms/d/e/1FAIpQLSeTVk1ppNp8KWXvnrp5-kIUYbH4NQJMJYBkBEB3Fhr74BVCgA/viewform",
       "theme": {
         "primaryColor": "#a08664",
         "backgroundColor": "#faf6f0",
@@ -305,7 +305,7 @@ window.GUESTS_DATA = {
       "salutation": "Дорогой",
       "message": "Мы очень рады пригласить тебя на наш праздник! Твоё присутствие сделает этот день ещё теплее и счастливее.",
       "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Pink_rose_bloom_of_a_climbing_rose_at_Boreham%2C_Essex%2C_England_1.jpg/960px-Pink_rose_bloom_of_a_climbing_rose_at_Boreham%2C_Essex%2C_England_1.jpg",
-      "rsvpLink": "https://forms.gle/ВАША_ФОРМА",
+      "rsvpLink": "https://docs.google.com/forms/d/e/1FAIpQLSeTVk1ppNp8KWXvnrp5-kIUYbH4NQJMJYBkBEB3Fhr74BVCgA/viewform",
       "theme": {
         "primaryColor": "#b4536a",
         "backgroundColor": "#fdf2f4",
@@ -321,7 +321,7 @@ window.GUESTS_DATA = {
       "salutation": "Дорогие",
       "message": "В нашей жизни наступает особенный день, и мы хотим разделить его с самыми близкими — с вами!",
       "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Bumblebee_on_Lavender_Blossom.JPG/960px-Bumblebee_on_Lavender_Blossom.JPG",
-      "rsvpLink": "https://forms.gle/ВАША_ФОРМА",
+      "rsvpLink": "https://docs.google.com/forms/d/e/1FAIpQLSeTVk1ppNp8KWXvnrp5-kIUYbH4NQJMJYBkBEB3Fhr74BVCgA/viewform",
       "theme": {
         "primaryColor": "#7c6bb0",
         "backgroundColor": "#f5f3fb",
@@ -337,7 +337,7 @@ window.GUESTS_DATA = {
       "salutation": "Дорогие",
       "message": "Будем счастливы видеть вас среди наших гостей в самый важный день нашей жизни!",
       "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/D%C3%BClmen%2C_Brachliegendes_Feld_mit_Wildblumen_--_2021_--_9761.jpg/960px-D%C3%BClmen%2C_Brachliegendes_Feld_mit_Wildblumen_--_2021_--_9761.jpg",
-      "rsvpLink": "https://forms.gle/ВАША_ФОРМА",
+      "rsvpLink": "https://docs.google.com/forms/d/e/1FAIpQLSeTVk1ppNp8KWXvnrp5-kIUYbH4NQJMJYBkBEB3Fhr74BVCgA/viewform",
       "theme": {
         "primaryColor": "#5e8b6a",
         "backgroundColor": "#f1f7f2",
@@ -353,7 +353,7 @@ window.GUESTS_DATA = {
       "salutation": "Дорогие",
       "message": "Этот день станет для нас началом новой истории, и мы будем рады написать её первую страницу вместе с вами.",
       "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Sunflower_in_the_evening_light_03.jpg/960px-Sunflower_in_the_evening_light_03.jpg",
-      "rsvpLink": "https://forms.gle/ВАША_ФОРМА",
+      "rsvpLink": "https://docs.google.com/forms/d/e/1FAIpQLSeTVk1ppNp8KWXvnrp5-kIUYbH4NQJMJYBkBEB3Fhr74BVCgA/viewform",
       "theme": {
         "primaryColor": "#b08d3e",
         "backgroundColor": "#fbf7ee",
@@ -369,7 +369,7 @@ window.GUESTS_DATA = {
       "salutation": "Дорогие",
       "message": "Приглашаем вас разделить с нами радость нашего самого счастливого дня!",
       "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Hydrangea_macrophylla_%28Hortensia%29.JPG/960px-Hydrangea_macrophylla_%28Hortensia%29.JPG",
-      "rsvpLink": "https://forms.gle/ВАША_ФОРМА",
+      "rsvpLink": "https://docs.google.com/forms/d/e/1FAIpQLSeTVk1ppNp8KWXvnrp5-kIUYbH4NQJMJYBkBEB3Fhr74BVCgA/viewform",
       "theme": {
         "primaryColor": "#5b7d9e",
         "backgroundColor": "#eef4f9",
@@ -385,7 +385,7 @@ window.GUESTS_DATA = {
       "salutation": "Дорогие",
       "message": "Без вас наш праздник будет неполным — будем очень рады видеть вас!",
       "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Triumph_Tulip_Tulipa_%27Prinses_Irene%27_Single_2859px.jpg/960px-Triumph_Tulip_Tulipa_%27Prinses_Irene%27_Single_2859px.jpg",
-      "rsvpLink": "https://forms.gle/ВАША_ФОРМА",
+      "rsvpLink": "https://docs.google.com/forms/d/e/1FAIpQLSeTVk1ppNp8KWXvnrp5-kIUYbH4NQJMJYBkBEB3Fhr74BVCgA/viewform",
       "theme": {
         "primaryColor": "#c4704f",
         "backgroundColor": "#fdf4ef",
@@ -401,7 +401,7 @@ window.GUESTS_DATA = {
       "salutation": "Дорогие",
       "message": "Мы очень рады пригласить вас на наш праздник! Ваше присутствие сделает этот день ещё теплее и счастливее.",
       "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Dahlia_%27Bishop_of_Auckland.JPG/960px-Dahlia_%27Bishop_of_Auckland.JPG",
-      "rsvpLink": "https://forms.gle/ВАША_ФОРМА",
+      "rsvpLink": "https://docs.google.com/forms/d/e/1FAIpQLSeTVk1ppNp8KWXvnrp5-kIUYbH4NQJMJYBkBEB3Fhr74BVCgA/viewform",
       "theme": {
         "primaryColor": "#8e3b46",
         "backgroundColor": "#faf0f1",
@@ -417,7 +417,7 @@ window.GUESTS_DATA = {
       "salutation": "Дорогие",
       "message": "В нашей жизни наступает особенный день, и мы хотим разделить его с самыми близкими — с вами!",
       "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Soldaatje_%28Orchis_militaris%29_Hortus_Haren.JPG/960px-Soldaatje_%28Orchis_militaris%29_Hortus_Haren.JPG",
-      "rsvpLink": "https://forms.gle/ВАША_ФОРМА",
+      "rsvpLink": "https://docs.google.com/forms/d/e/1FAIpQLSeTVk1ppNp8KWXvnrp5-kIUYbH4NQJMJYBkBEB3Fhr74BVCgA/viewform",
       "theme": {
         "primaryColor": "#3f9b94",
         "backgroundColor": "#eefaf8",
@@ -433,7 +433,7 @@ window.GUESTS_DATA = {
       "salutation": "Дорогие",
       "message": "Будем счастливы видеть вас среди наших гостей в самый важный день нашей жизни!",
       "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Leucanthemum_vulgare_%27Filigran%27_Flower_2200px.jpg/960px-Leucanthemum_vulgare_%27Filigran%27_Flower_2200px.jpg",
-      "rsvpLink": "https://forms.gle/ВАША_ФОРМА",
+      "rsvpLink": "https://docs.google.com/forms/d/e/1FAIpQLSeTVk1ppNp8KWXvnrp5-kIUYbH4NQJMJYBkBEB3Fhr74BVCgA/viewform",
       "theme": {
         "primaryColor": "#a08664",
         "backgroundColor": "#faf6f0",
